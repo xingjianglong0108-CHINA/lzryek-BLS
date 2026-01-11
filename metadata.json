@@ -1,0 +1,5 @@
+{
+  "name": "儿科基础生命支持-LZRYEK 交互式决策工具",
+  "description": "基于 2025 AHA/AAP 指南的儿科基础生命支持（PBLS）临床决策支持系统，包含交互式流程图、实时参数计算、药物剂量联动及核心指南要点。",
+  "requestFramePermissions": []
+}
