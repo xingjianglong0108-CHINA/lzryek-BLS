@@ -220,7 +220,7 @@ const TheoryPoints: React.FC = () => {
   return (
     <div className="space-y-6 pb-12 animate-in fade-in duration-500">
       <div className="px-1">
-        <h2 className="text-2xl font-black text-slate-900 tracking-tight">2025 NRP/PBLS 核心理论</h2>
+        <h2 className="text-2xl font-black text-slate-900 tracking-tight">2025 PBLS 核心理论</h2>
         <p className="text-xs text-slate-400 font-bold mt-1 uppercase tracking-widest">Major Concepts & Detailed Guidelines</p>
       </div>
       
