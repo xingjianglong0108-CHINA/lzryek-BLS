@@ -24,7 +24,13 @@ const ChecklistView: React.FC = () => {
     { id: '10', category: 'POST', text: '气道维持与氧合管理', subtext: 'SpO2 目标 94-99%，PaCO2 35-45mmHg', checked: false },
     { id: '11', category: 'POST', text: '循环支持与血压目标', subtext: '维持 SBP > 70 + (2 × 岁)', checked: false },
     { id: '12', category: 'POST', text: '核心温管理与脑保护', subtext: '预防发热，目标体温 36.0-37.5°C', checked: false },
-    { id: '13', category: 'POST', text: '可逆原因回溯 (H\'s & T\'s)', subtext: '排除低血糖、低血容量、缺氧等', checked: false }
+    // 完整列出 6H
+    { id: '13', category: 'POST', text: '6H: 缺氧 (Hypoxia) 与 低血容量 (Hypovolemia)', subtext: '检查气道阻塞/通气不足；检查失血/脱水', checked: false },
+    { id: '14', category: 'POST', text: '6H: 低血糖 (Hypoglycemia) 与 酸中毒 (Hydrogen ion)', subtext: '儿科关键：快速测血糖；纠正代谢性酸中毒', checked: false },
+    { id: '15', category: 'POST', text: '6H: 低/高钾 (Hypo/Hyperkalemia) 与 低体温 (Hypothermia)', subtext: '检查电解质异常；测量并维持中心体温', checked: false },
+    // 完整列出 5T
+    { id: '16', category: 'POST', text: '5T: 张力性气胸 (Tension PTX) 与 心脏压塞 (Tamponade)', subtext: '听诊双肺呼吸音；观察颈静脉怒张/心音低钝', checked: false },
+    { id: '17', category: 'POST', text: '5T: 毒物/药物过量 (Toxins) 与 血栓 (Thrombosis)', subtext: '询问病史(误服)；考虑肺栓塞/冠脉血栓', checked: false }
   ]);
 
   const toggleCheck = (id: string, e: React.MouseEvent) => {
